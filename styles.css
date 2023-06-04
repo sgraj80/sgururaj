@@ -20,11 +20,6 @@ header {
   align-items: center;
 }
 
-.img {
-  max-width: 100px;
-  height: auto;
-}
-
 .nav-links {
   list-style: none;
   margin: 0;
@@ -50,6 +45,15 @@ header {
 
 .nav-links li a:hover {
   background-color: var(--violetred);
+}
+
+#about img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #about,
