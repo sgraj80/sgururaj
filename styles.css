@@ -14,16 +14,29 @@ header {
   padding: 10px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  max-width: 100px;
+  height: auto;
+}
+
 .nav-links {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
+  gap: 5px;
 }
 
 .nav-links li {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .nav-links li a {
@@ -39,16 +52,10 @@ header {
   background-color: var(--violetred);
 }
 
-#about {
-  text-align: center;
-  background-color: var(--white);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#experience {
+#about,
+#experience,
+#projects,
+#contact {
   text-align: center;
   background-color: var(--white);
   padding: 10px;
@@ -58,22 +65,18 @@ header {
 }
 
 .card {
-  width: calc(33.33% - 20px);
-  height: 250px;
+  width: 100%;
+  height: auto;
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 10px;
-  margin: 0 5px;
+  margin: 0 0 10px 0;
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
   transition: transform 0.4s ease;
   background-color: var(--white);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.card:nth-child(3n) {
-  margin-right: 5px;
 }
 
 .card:hover {
@@ -86,7 +89,7 @@ header {
 }
 
 .card-content h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
@@ -106,24 +109,6 @@ header {
 
 .card-content a:hover {
   background-color: var(--violetred);
-}
-
-#projects {
-  text-align: center;
-  background-color: var(--white);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#contact {
-  text-align: center;
-  background-color: var(--white);
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 form {
@@ -173,4 +158,38 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+/* Media Query */
+@media only screen and (max-width: 414px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-links li {
+    margin: 0 3px;
+  }
+
+  .nav-links li a {
+    padding: 6px 10px;
+  }
+
+  .card-content h3 {
+    font-size: 16px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .card {
+    width: calc(33.33% - 10px);
+  }
+
+  .card:nth-child(3n) {
+    margin-right: 10px;
+  }
 }
