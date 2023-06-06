@@ -216,6 +216,26 @@ footer p {
   }
 }
 
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: var(--violetred);
+  color: var(--white);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#topBtn:hover {
+  background-color: var(--black);
+}
+
 @media only screen and (orientation: landscape) {
   .card {
     width: calc(33.33% - 10px);
