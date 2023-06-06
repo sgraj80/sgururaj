@@ -60,6 +60,16 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.3;
+  color: var(--black);
+  text-align: justify;
+  margin-bottom: 1px;
+}
+
 #about,
 #experience,
 #projects,
@@ -142,7 +152,7 @@ form textarea {
   height: 100px;
 }
 
-form input[type="submit"] {
+.submit-button {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--black);
@@ -151,6 +161,20 @@ form input[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--violetred);
+  width: 100%;
 }
 
 form input[type="submit"]:hover {
