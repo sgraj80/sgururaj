@@ -21,9 +21,9 @@ Website link : [My portfolio website](https://sgraj80.github.io/)
 
 ### Resources used
 
-[W3schools for HTML](https://www.w3schools.com/html/)
-[W3schools for CSS](https://www.w3schools.com/css/)
-[W3schools for JavaScript](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
-[W3schools for JavaScript](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
-[textures](https://www.transparenttextures.com/)
-[W3schools for CSS](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons)
+1. [W3schools for HTML](https://www.w3schools.com/html/)
+2. [W3schools for CSS](https://www.w3schools.com/css/)
+3. [W3schools for JavaScript](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp)
+4. [W3schools for JavaScript](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+5. [textures](https://www.transparenttextures.com/)
+6. [W3schools for CSS](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons)
