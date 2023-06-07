@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
+    <h1 class="Welcome">Welcome. Get to me know me better.</h1>
     <header>
-      <nav>
+      <nav class="navbar">
         <ul class="nav-links">
           <li>
             <a href="#about">About Me</a>
@@ -18,10 +23,13 @@
             <a href="#experience">My Experience</a>
           </li>
           <li>
-            <a href="#projects">My projects</a>
+            <a href="#projects">My Projects</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
+          </li>
+          <li>
+            <a href="#social">Social Media</a>
           </li>
         </ul>
       </nav>
@@ -69,13 +77,14 @@
             Led a team of 4 developers in designing and developing a movie
             recommendation engine Collaborated with 5+ internal functional teams
             for application integration and testing Mined insights from
-            MovieLens wxtensively for average consumer preferences.
+            MovieLens extensively for average consumer preferences and
+            requirements. Took part in alpha and beta testing.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="proejcts-section" id="projects">
+    <section class="projects-section" id="projects">
       <h2>Projects</h2>
       <div class="card">
         <div class="card-content">
@@ -116,7 +125,7 @@
 
     <section class="contact-section" id="contact">
       <form>
-        <h2 class="visually-hidden">Contact Form</h2>
+        <h2 class="visually-hidden">Contact Me</h2>
         <label for="name">Name:</label>
         <input
           type="text"
@@ -142,6 +151,19 @@
         ></textarea>
         <button type="submit" class="submit-button">Submit</button>
       </form>
+    </section>
+
+    <section class="social-media" id="social">
+      <a
+        href="https://www.linkedin.com/in/shishir-gururaj/"
+        class="fa fa-linkedin"
+        aria-label="LinkedIn"
+      ></a>
+      <a
+        href="https://www.instagram.com/shishirgururaj/"
+        class="fa fa-instagram"
+        aria-label="Instagram"
+      ></a>
     </section>
 
     <button onclick="topFunction()" id="topBtn" title="Go to top">
